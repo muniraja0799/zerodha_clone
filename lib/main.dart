@@ -32,6 +32,8 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Zerodha'),
+          elevation: 0.0,
+          backgroundColor: Colors.blue[900],
         ),
         body: const Center(
           child: Text('Hello Muniraja'),
